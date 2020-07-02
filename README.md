@@ -1,0 +1,4 @@
+This is an implementation of the simple but effective machine learning technique, Multinomial Naive Bayes classification for a binary text classification task (i.e., spam detection).
+The dataset is taken from Kaggle and consists of 5571 entries of various messages which have been classified as spam or not. 
+The preprocessing involes removal of punctuations, numbers, conversion of words to lowercase and removal of stopwords. The stopwords are obtained from NLTK. The words are the stemmed with the help of Snowball stemmer from the SciKit learn library. WordCloud is used to visualise which words are the most frequent in the given dataset. The processed data is vectorised with the help of TFID vectorizer.
+The Multinomial Naive Bayes classifier is used for the predictions. The model has an accuracy in the range of 96-98% and works well with data which isn't from the dataset.
